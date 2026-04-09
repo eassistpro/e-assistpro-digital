@@ -534,13 +534,14 @@ ${navHTML('home')}
     <!-- TEAM PHOTO – JOINT ONLY -->
     <div class="about-team-center">
       <div class="about-team-photo">
-        <img src="/static/team-main.jpg" alt="The E-Assist Pro Digital team" />
+        <img src="/static/team-together.jpg" alt="The E-Assist Pro Digital team" />
         <div class="about-team-caption">
           <span>Co-founders · E-Assist Pro Digital · Aruba</span>
         </div>
       </div>
       <div class="about-team-text">
-        <p>We are two passionate entrepreneurs who built E-Assist Pro Digital from the ground up — right here in Aruba. With hands-on experience in marketing, business operations, and administrative support, we understand what small businesses on the island really need.</p>
+        <p>E-Assist Pro Digital was founded in 2024 by Eliseth — driven by a clear vision: give small businesses in Aruba access to reliable digital marketing and administrative support, all in one place.</p>
+        <p>In 2025, Eliseth partnered with Pamela to expand the company's capacity and take on more clients. Together, they bring complementary strengths in marketing, operations, and client delivery — allowing the business to grow with a strong team behind it.</p>
         <p>Our goal is simple: handle the backend so you can focus on what you do best. From social media and ads to admin filing and branding — we are your all-in-one business partner.</p>
         <div class="about-tags">
           <span>🇦🇼 Aruba-Based</span>
