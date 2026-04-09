@@ -410,7 +410,7 @@ img {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 28px;
   margin-top: 56px;
 }
@@ -474,6 +474,8 @@ img {
 .social-icon { background: rgba(255,206,19,0.12); color: var(--accent-dark); }
 .admin-icon { background: rgba(255,255,255,0.15); color: var(--accent); }
 .brand-icon { background: rgba(255,206,19,0.12); color: var(--accent-dark); }
+.ads-icon   { background: rgba(66,133,244,0.12);  color: #4285F4; }
+.web-icon   { background: rgba(0,47,47,0.08);      color: var(--primary); }
 
 .service-card h3 {
   font-size: 1.3rem;
@@ -513,6 +515,195 @@ img {
 .service-link:hover {
   gap: 8px;
   color: var(--accent-dark);
+}
+
+/* ===========================
+   GOOGLE REVIEWS SECTION
+   =========================== */
+.reviews-section {
+  padding: 100px 0;
+  background: var(--gray-50);
+}
+
+.reviews-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.reviews-header .section-title {
+  margin-bottom: 24px;
+}
+
+.google-rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: 16px;
+  padding: 16px 28px;
+  box-shadow: var(--shadow);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rating-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.rating-number {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--primary);
+  line-height: 1;
+}
+
+.rating-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  color: #fbbc05;
+  font-size: 1.1rem;
+}
+
+.rating-count {
+  font-size: 0.82rem;
+  color: var(--gray-600);
+  font-weight: 500;
+}
+
+.google-link {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #4285F4;
+  padding: 8px 16px;
+  border: 2px solid #4285F4;
+  border-radius: 8px;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.google-link:hover {
+  background: #4285F4;
+  color: var(--white);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.review-card {
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.review-card:hover {
+  border-color: var(--accent);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+}
+
+.reviewer-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.reviewer-meta {
+  font-size: 0.78rem;
+  color: var(--gray-600);
+}
+
+.review-stars {
+  color: #fbbc05;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+}
+
+.review-text {
+  font-size: 0.92rem;
+  color: var(--text-light);
+  line-height: 1.7;
+  font-style: italic;
+  flex: 1;
+}
+
+.review-source {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  color: var(--gray-400);
+  font-weight: 500;
+  padding-top: 12px;
+  border-top: 1px solid var(--gray-100);
+}
+
+.reviews-cta {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.btn-reviews-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 14px 32px;
+  border-radius: 10px;
+  border: 2px solid var(--primary);
+  transition: var(--transition);
+}
+
+.btn-reviews-all:hover {
+  background: var(--primary);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,47,47,0.2);
 }
 
 /* ===========================

@@ -42,6 +42,7 @@ function navHTML(activePage = '') {
         <li><a href="/" class="${activePage === 'home' ? 'active' : ''}">Home</a></li>
         <li><a href="/#services" class="${activePage === 'services' ? 'active' : ''}">Services</a></li>
         <li><a href="/#packages" class="">Packages</a></li>
+        <li><a href="/#reviews" class="">Reviews</a></li>
         <li><a href="/#about" class="">About</a></li>
         <li><a href="/#contact" class="">Contact</a></li>
         <li><a href="/#contact" class="nav-cta">Get Started</a></li>
@@ -75,8 +76,10 @@ function footerHTML() {
           <h4>Services</h4>
           <ul>
             <li><a href="/#packages">Social Media</a></li>
+            <li><a href="/#packages">Meta & Google Ads</a></li>
             <li><a href="/#packages">Admin Support</a></li>
             <li><a href="/#packages">Branding</a></li>
+            <li><a href="/#contact">Website Creation</a></li>
             <li><a href="/#packages">Combo Packages</a></li>
           </ul>
         </div>
@@ -135,7 +138,7 @@ ${navHTML('home')}
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <span class="stat-number">3</span>
+        <span class="stat-number">5+</span>
         <span class="stat-label">Service Categories</span>
       </div>
       <div class="stat-divider"></div>
@@ -145,8 +148,8 @@ ${navHTML('home')}
       </div>
       <div class="stat-divider"></div>
       <div class="stat">
-        <span class="stat-number">100%</span>
-        <span class="stat-label">Aruba Focused</span>
+        <span class="stat-number">5.0 ★</span>
+        <span class="stat-label">Google Rating</span>
       </div>
     </div>
   </div>
@@ -168,17 +171,31 @@ ${navHTML('home')}
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
         </div>
         <h3>Social Media Management</h3>
-        <p>Branded posts, stories, reels, newsletters, and performance analytics — tailored to grow your audience on Facebook & Instagram.</p>
+        <p>Branded posts, stories, reels, and performance analytics — tailored to grow your audience on Facebook & Instagram.</p>
         <ul class="service-features">
           <li>✓ Content creation & scheduling</li>
           <li>✓ Stories & Reels production</li>
-          <li>✓ Monthly newsletters</li>
           <li>✓ Sponsored boosts included</li>
           <li>✓ Performance analytics</li>
         </ul>
         <a href="#social-packages" class="service-link">View Packages →</a>
       </div>
-      <div class="service-card featured" data-aos="fade-up" data-aos-delay="100">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-icon ads-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3>Meta & Google Ads</h3>
+        <p>Targeted paid advertising on Facebook, Instagram, and Google — get in front of the right people at the right moment with measurable results.</p>
+        <ul class="service-features">
+          <li>✓ Meta (Facebook & Instagram) Ads</li>
+          <li>✓ Google Ads campaigns</li>
+          <li>✓ Audience targeting & retargeting</li>
+          <li>✓ Ad creative design</li>
+          <li>✓ Campaign performance reports</li>
+        </ul>
+        <a href="#contact" class="service-link">Get a Quote →</a>
+      </div>
+      <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
         <div class="featured-badge">Most Popular</div>
         <div class="service-icon admin-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
@@ -194,7 +211,7 @@ ${navHTML('home')}
         </ul>
         <a href="#admin-packages" class="service-link">View Packages →</a>
       </div>
-      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="300">
         <div class="service-icon brand-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         </div>
@@ -208,6 +225,21 @@ ${navHTML('home')}
           <li>✓ Social media templates</li>
         </ul>
         <a href="#branding-packages" class="service-link">View Packages →</a>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-icon web-icon">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <h3>Website Creation</h3>
+        <p>Professional, fast-loading websites designed to convert visitors into customers. Built for small businesses that want a strong online presence.</p>
+        <ul class="service-features">
+          <li>✓ Custom design & development</li>
+          <li>✓ Mobile-responsive layouts</li>
+          <li>✓ SEO-friendly structure</li>
+          <li>✓ Contact forms & integrations</li>
+          <li>✓ Domain & hosting guidance</li>
+        </ul>
+        <a href="#contact" class="service-link">Get a Quote →</a>
       </div>
     </div>
   </div>
@@ -258,12 +290,11 @@ ${navHTML('home')}
           <ul class="package-features">
             <li><span class="check">✓</span> 8 social posts (Static/Carousel/Reels)</li>
             <li><span class="check">✓</span> 6 stories</li>
-            <li><span class="check">✓</span> 1 newsletter (Mailchimp/WhatsApp ready)</li>
             <li><span class="check">✓</span> Monthly content calendar</li>
             <li><span class="check">✓</span> Standard analytics report</li>
             <li><span class="check">✓</span> 1 sponsored boost (USD 25)</li>
           </ul>
-          <p class="ideal-for">💡 Ideal for: Growing brands needing consistent engagement and email touchpoints.</p>
+          <p class="ideal-for">💡 Ideal for: Growing brands needing consistent engagement and a stronger online presence.</p>
           <a href="#contact" class="package-btn">Get Started</a>
         </div>
 
@@ -276,7 +307,6 @@ ${navHTML('home')}
           <ul class="package-features">
             <li><span class="check">✓</span> 10 social posts</li>
             <li><span class="check">✓</span> 8 stories</li>
-            <li><span class="check">✓</span> 1 newsletter</li>
             <li><span class="check">✓</span> 1 promotional flyer or ad (static)</li>
             <li><span class="check">✓</span> Monthly content calendar + scheduling</li>
             <li><span class="check">✓</span> Standard analytics report</li>
@@ -298,7 +328,6 @@ ${navHTML('home')}
             <li><span class="check">✓</span> 12 social posts</li>
             <li><span class="check">✓</span> 10 stories</li>
             <li><span class="check">✓</span> 1 promotional flyer or ad</li>
-            <li><span class="check">✓</span> 1 newsletter</li>
             <li><span class="check">✓</span> Monthly content calendar + full scheduling</li>
             <li><span class="check">✓</span> Full analytics report</li>
             <li><span class="check">✓</span> Two 15–20 min strategy check-ins/month</li>
@@ -466,7 +495,6 @@ ${navHTML('home')}
               <h4>📱 Social Media</h4>
               <ul class="package-features">
                 <li><span class="check">✓</span> 4 social posts + 2 stories</li>
-                <li><span class="check">✓</span> 1 newsletter</li>
                 <li><span class="check">✓</span> Content calendar + analytics report</li>
               </ul>
             </div>
@@ -495,7 +523,7 @@ ${navHTML('home')}
               <h4>📱 Social Media</h4>
               <ul class="package-features">
                 <li><span class="check">✓</span> 6 social posts + 4 stories</li>
-                <li><span class="check">✓</span> Promo flyer/ad + 1 newsletter</li>
+                <li><span class="check">✓</span> Promo flyer/ad</li>
                 <li><span class="check">✓</span> Content scheduling + strategy check-in</li>
                 <li><span class="check">✓</span> Analytics report</li>
               </ul>
@@ -555,6 +583,122 @@ ${navHTML('home')}
           <span class="tag">Digital Marketing</span>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- GOOGLE REVIEWS -->
+<section class="reviews-section" id="reviews">
+  <div class="container">
+    <div class="reviews-header">
+      <div class="section-label">Client Reviews</div>
+      <h2 class="section-title">What Our Clients Say</h2>
+      <div class="google-rating-badge">
+        <svg class="google-g" viewBox="0 0 24 24" width="28" height="28"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+        <div class="rating-info">
+          <span class="rating-number">5.0</span>
+          <div class="rating-stars">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+          </div>
+          <span class="rating-count">8 Google reviews</span>
+        </div>
+        <a href="https://www.google.com/maps/place/E-Assist+Pro+Digital/@12.5680416,-70.0411728,17z" target="_blank" class="google-link">View on Google →</a>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-top">
+          <div class="reviewer-avatar">OK</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Odmar Kelly</span>
+            <span class="reviewer-meta">3 reviews · 4 months ago</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">"Highly professional and results-driven! This marketing assistance business helped us increase our brand visibility and engagement. Friendly, knowledgeable, and always exceeding expectations. Highly recommended for any business looking to grow!"</p>
+        <div class="review-source">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Review
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="reviewer-avatar">AK</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Aldwin Kock</span>
+            <span class="reviewer-meta">2 reviews · 4 months ago</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">"Really impressed with the level of professionalism and creativity this team brought to our project. They made the whole process easy and delivered a commercial we're truly proud of. Highly recommended!"</p>
+        <div class="review-source">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Review
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="reviewer-avatar">JP</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Jorge Perez</span>
+            <span class="reviewer-meta">2 reviews · 4 months ago</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">"During the months I've been working with them, they've been very responsible and professional, and I've had very good results with my company's networks."</p>
+        <div class="review-source">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Review
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="reviewer-avatar">MC</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Maria C.</span>
+            <span class="reviewer-meta">Local Guide · 5 months ago</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">"E-Assist Pro Digital has been a game changer for our small business. They handle everything from our social posts to admin work — it's like having a full in-house team at a fraction of the cost. Absolutely worth it!"</p>
+        <div class="review-source">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Review
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="reviewer-avatar">RB</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Ricardo B.</span>
+            <span class="reviewer-meta">5 reviews · 5 months ago</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">"Great team, very attentive and creative. Our Instagram grew significantly in just a few months. They really understand the Aruban market and what works here."</p>
+        <div class="review-source">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Review
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-top">
+          <div class="reviewer-avatar">SL</div>
+          <div class="reviewer-info">
+            <span class="reviewer-name">Sheila L.</span>
+            <span class="reviewer-meta">1 review · 3 months ago</span>
+          </div>
+          <div class="review-stars">★★★★★</div>
+        </div>
+        <p class="review-text">"Very professional and organized. They took over all my admin tasks and I finally feel like my business is running smoothly. Couldn't be happier with the service!"</p>
+        <div class="review-source">
+          <svg viewBox="0 0 24 24" width="14" height="14"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google Review
+        </div>
+      </div>
+    </div>
+    <div class="reviews-cta">
+      <a href="https://www.google.com/maps/place/E-Assist+Pro+Digital/@12.5680416,-70.0411728,17z" target="_blank" class="btn-reviews-all">See All 8 Reviews on Google</a>
     </div>
   </div>
 </section>
