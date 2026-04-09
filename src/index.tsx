@@ -116,7 +116,7 @@ function homepage(): string {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E-Assist Pro Digital – Your Business Solution Partner in Aruba</title>
-  <meta name="description" content="E-Assist Pro Digital offers social media management, admin support, and branding services for small businesses in Aruba. AWG-priced packages to fit every budget." />
+  <meta name="description" content="E-Assist Pro Digital offers social media management, Meta & Google Ads, admin support, branding, and website creation for small businesses in Aruba. Packages from AWG 600." />
   <link rel="icon" href="/static/favicon.png" type="image/png" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/static/style.css" />
@@ -248,9 +248,9 @@ ${navHTML('home')}
 <!-- PACKAGES -->
 <section class="packages-section" id="packages">
   <div class="container">
-    <div class="section-label">Pricing</div>
-    <h2 class="section-title">Transparent Packages</h2>
-    <p class="section-sub">All prices in Aruban Florin (AWG). No hidden fees — just clear, honest value.</p>
+    <div class="section-label">Our Packages</div>
+    <h2 class="section-title">Find the Right Fit for Your Business</h2>
+    <p class="section-sub">Packages start from <strong>AWG 600,-</strong>. All priced in Aruban Florin — no hidden fees, no long-term lock-ins. Contact us to find the right fit for your budget.</p>
 
     <!-- TAB NAV -->
     <div class="tab-nav">
@@ -266,8 +266,7 @@ ${navHTML('home')}
         <div class="package-card">
           <div class="package-header">
             <h3>Social Boost</h3>
-            <div class="package-price"><span class="currency">AWG</span> 600<span class="period">/mo</span></div>
-            <p>Build engagement with more frequent posting.</p>
+            <p>Build engagement with consistent, branded posting.</p>
           </div>
           <ul class="package-features">
             <li><span class="check">✓</span> 6 branded posts</li>
@@ -284,7 +283,6 @@ ${navHTML('home')}
           <div class="popular-badge">⭐ Popular</div>
           <div class="package-header">
             <h3>Social Growth</h3>
-            <div class="package-price"><span class="currency">AWG</span> 800<span class="period">/mo</span></div>
             <p>Grow your brand with weekly content that builds recognition.</p>
           </div>
           <ul class="package-features">
@@ -301,7 +299,6 @@ ${navHTML('home')}
         <div class="package-card">
           <div class="package-header">
             <h3>Social Pro</h3>
-            <div class="package-price"><span class="currency">AWG</span> 1,100<span class="period">/mo</span></div>
             <p>High-impact content plus marketing visuals to drive attention.</p>
           </div>
           <ul class="package-features">
@@ -321,7 +318,6 @@ ${navHTML('home')}
           <div class="premium-badge">🚀 Best Value</div>
           <div class="package-header">
             <h3>Social Strategy Plus</h3>
-            <div class="package-price"><span class="currency">AWG</span> 1,500<span class="period">/mo</span></div>
             <p>Advanced monthly package for content-led growth and strategic refinement.</p>
           </div>
           <ul class="package-features">
@@ -345,7 +341,6 @@ ${navHTML('home')}
         <div class="package-card">
           <div class="package-header">
             <h3>Admin Basic</h3>
-            <div class="package-price"><span class="currency">AWG</span> 350<span class="period">/mo</span></div>
             <p>Essential admin support for businesses with minimal monthly paperwork.</p>
           </div>
           <ul class="package-features">
@@ -363,7 +358,6 @@ ${navHTML('home')}
         <div class="package-card">
           <div class="package-header">
             <h3>Admin Combo</h3>
-            <div class="package-price"><span class="currency">AWG</span> 490<span class="period">/mo</span></div>
             <p>Flexible monthly support with blended admin services.</p>
           </div>
           <ul class="package-features">
@@ -381,7 +375,6 @@ ${navHTML('home')}
           <div class="popular-badge">⭐ Popular</div>
           <div class="package-header">
             <h3>Admin Plus</h3>
-            <div class="package-price"><span class="currency">AWG</span> 600<span class="period">/mo</span></div>
             <p>Enhanced monthly support with structured tools and setup assistance.</p>
           </div>
           <ul class="package-features">
@@ -403,7 +396,6 @@ ${navHTML('home')}
         <div class="package-card">
           <div class="package-header">
             <h3>Starter Branding Kit</h3>
-            <div class="package-price"><span class="currency">AWG</span> 350<span class="period"> one-time</span></div>
             <p>The essentials to get your brand started.</p>
           </div>
           <ul class="package-features">
@@ -420,7 +412,6 @@ ${navHTML('home')}
           <div class="popular-badge">⭐ Popular</div>
           <div class="package-header">
             <h3>Business Branding Kit</h3>
-            <div class="package-price"><span class="currency">AWG</span> 1,500<span class="period"> one-time</span></div>
             <p>A complete kit for a polished, professional look.</p>
           </div>
           <ul class="package-features">
@@ -438,7 +429,6 @@ ${navHTML('home')}
         <div class="package-card">
           <div class="package-header">
             <h3>Premium Brand Identity</h3>
-            <div class="package-price"><span class="currency">AWG</span> 2,500<span class="period"> one-time</span></div>
             <p>A full brand identity system for serious businesses.</p>
           </div>
           <ul class="package-features">
@@ -457,7 +447,6 @@ ${navHTML('home')}
           <div class="premium-badge">🚀 Complete</div>
           <div class="package-header">
             <h3>Full Brand Experience</h3>
-            <div class="package-price"><span class="currency">AWG</span> 3,500<span class="period"> one-time</span></div>
             <p>Everything you need to launch your brand with impact.</p>
           </div>
           <ul class="package-features">
@@ -479,7 +468,6 @@ ${navHTML('home')}
           <div class="combo-badge">💼 Combo</div>
           <div class="package-header">
             <h3>Business Builder Combo</h3>
-            <div class="package-price"><span class="currency">AWG</span> 1,250<span class="period">/mo</span></div>
             <p>Monthly balance of admin and digital marketing support.</p>
           </div>
           <div class="combo-split">
@@ -508,7 +496,6 @@ ${navHTML('home')}
           <div class="combo-badge">🔥 Premium Combo</div>
           <div class="package-header">
             <h3>Pro-Growth Combo</h3>
-            <div class="package-price"><span class="currency">AWG</span> 1,750<span class="period">/mo</span></div>
             <p>Premium monthly support to manage admin and brand visibility.</p>
           </div>
           <div class="combo-split">
@@ -542,69 +529,24 @@ ${navHTML('home')}
   <div class="container">
     <div class="section-label" style="text-align:center">About Us</div>
     <h2 class="section-title" style="text-align:center">The Team Behind E-Assist Pro Digital</h2>
-    <p class="section-sub" style="margin-bottom:64px">We are a women-owned, Aruba-based digital agency. Built on years of hands-on experience in marketing, admin, and business operations. We combine local knowledge with modern tools to get results.</p>
+    <p class="section-sub" style="margin-bottom:48px;text-align:center">A women-owned, Aruba-based digital agency combining local knowledge with modern tools to help small businesses grow with confidence.</p>
 
-    <!-- TEAM PHOTO STRIP -->
-    <div class="photo-strip">
-      <div class="photo-strip-main">
-        <img src="/static/team-main.jpg" alt="Eliseth and Pamela - E-Assist Pro Digital team" />
-        <div class="photo-strip-overlay">
-          <span class="overlay-tag">Eliseth &amp; Pamela</span>
-          <span class="overlay-sub">Co-founders · Aruba</span>
+    <!-- TEAM PHOTO – JOINT ONLY -->
+    <div class="about-team-center">
+      <div class="about-team-photo">
+        <img src="/static/team-main.jpg" alt="The E-Assist Pro Digital team" />
+        <div class="about-team-caption">
+          <span>Co-founders · E-Assist Pro Digital · Aruba</span>
         </div>
       </div>
-      <div class="photo-strip-grid">
-        <div class="photo-thumb">
-          <img src="/static/team-working-1.jpg" alt="Team at work" />
-        </div>
-        <div class="photo-thumb">
-          <img src="/static/team-working-4.jpg" alt="Strategy session" />
-        </div>
-        <div class="photo-thumb">
-          <img src="/static/team-shirts.jpg" alt="Professional Assistance That Delivers" />
-        </div>
-        <div class="photo-thumb">
-          <img src="/static/team-client.jpg" alt="With a client" />
-        </div>
-      </div>
-    </div>
-
-    <!-- TEAM BIOS -->
-    <div class="team-bios">
-      <div class="bio-card">
-        <div class="bio-photo-wrap">
-          <img src="/static/eliseth-portrait.jpg" alt="Eliseth Everon" class="bio-photo" />
-        </div>
-        <div class="bio-content">
-          <div class="bio-role">Managing Director · 60% Owner</div>
-          <h3 class="bio-name">Eliseth Everon</h3>
-          <p class="bio-text">Eliseth brings a decade of experience in banking, insurance, marketing, and entrepreneurship. She founded and managed multiple companies in Aruba, including Bello Electrical Services, HiDreams Aviation Academy, and Power B Electrical Services.</p>
-          <p class="bio-text">During and after COVID-19, she led social media campaigns for several Aruban businesses and produced video ads for LED billboards island-wide. She drives strategy, finance, client sales, and community partnerships at E-Assist Pro Digital.</p>
-          <div class="bio-tags">
-            <span>Strategy</span>
-            <span>Finance</span>
-            <span>Sales</span>
-            <span>Marketing</span>
-            <span>Operations</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="bio-card">
-        <div class="bio-photo-wrap">
-          <img src="/static/team-outdoor.jpg" alt="Pamela de Mey" class="bio-photo bio-photo-pamela" />
-        </div>
-        <div class="bio-content">
-          <div class="bio-role">Operations &amp; Marketing Coordinator · 40% Owner</div>
-          <h3 class="bio-name">Pamela de Mey</h3>
-          <p class="bio-text">Pamela has a background as a supervisor at Do it Center Aruba and as an administrative assistant for Bello Electrical Services. She graduated from EPI unit Welzijn as a social worker in July 2025.</p>
-          <p class="bio-text">Passionate about social media and administration, Pamela manages content creation, social media strategy, and all client-facing admin tasks. She keeps branding consistent and engagement growing across every platform.</p>
-          <div class="bio-tags">
-            <span>Content Creation</span>
-            <span>Social Media</span>
-            <span>Admin</span>
-            <span>Client Delivery</span>
-          </div>
+      <div class="about-team-text">
+        <p>We are two passionate entrepreneurs who built E-Assist Pro Digital from the ground up — right here in Aruba. With hands-on experience in marketing, business operations, and administrative support, we understand what small businesses on the island really need.</p>
+        <p>Our goal is simple: handle the backend so you can focus on what you do best. From social media and ads to admin filing and branding — we are your all-in-one business partner.</p>
+        <div class="about-tags">
+          <span>🇦🇼 Aruba-Based</span>
+          <span>👩‍💼 Women-Owned</span>
+          <span>📊 Results-Driven</span>
+          <span>🤝 Client-Focused</span>
         </div>
       </div>
     </div>
@@ -837,20 +779,35 @@ ${navHTML('home')}
             <label for="service">Service Interested In</label>
             <select id="service" name="service">
               <option value="">Select a service...</option>
-              <option value="social-boost">Social Boost – AWG 600</option>
-              <option value="social-growth">Social Growth – AWG 800</option>
-              <option value="social-pro">Social Pro – AWG 1,100</option>
-              <option value="social-strategy">Social Strategy Plus – AWG 1,500</option>
-              <option value="admin-basic">Admin Basic – AWG 350</option>
-              <option value="admin-combo">Admin Combo – AWG 490</option>
-              <option value="admin-plus">Admin Plus – AWG 600</option>
-              <option value="starter-branding">Starter Branding – AWG 350</option>
-              <option value="business-branding">Business Branding Kit – AWG 1,500</option>
-              <option value="premium-brand">Premium Brand Identity – AWG 2,500</option>
-              <option value="full-brand">Full Brand Experience – AWG 3,500</option>
-              <option value="business-builder">Business Builder Combo – AWG 1,250</option>
-              <option value="pro-growth">Pro-Growth Combo – AWG 1,750</option>
-              <option value="custom">Custom / Not Sure Yet</option>
+              <optgroup label="📱 Social Media">
+                <option value="social-boost">Social Boost</option>
+                <option value="social-growth">Social Growth</option>
+                <option value="social-pro">Social Pro</option>
+                <option value="social-strategy">Social Strategy Plus</option>
+              </optgroup>
+              <optgroup label="📣 Advertising">
+                <option value="meta-ads">Meta Ads (Facebook & Instagram)</option>
+                <option value="google-ads">Google Ads</option>
+              </optgroup>
+              <optgroup label="📋 Admin Support">
+                <option value="admin-basic">Admin Basic</option>
+                <option value="admin-combo">Admin Combo</option>
+                <option value="admin-plus">Admin Plus</option>
+              </optgroup>
+              <optgroup label="🎨 Branding">
+                <option value="starter-branding">Starter Branding Kit</option>
+                <option value="business-branding">Business Branding Kit</option>
+                <option value="premium-brand">Premium Brand Identity</option>
+                <option value="full-brand">Full Brand Experience</option>
+              </optgroup>
+              <optgroup label="🌐 Website">
+                <option value="website-creation">Website Creation</option>
+              </optgroup>
+              <optgroup label="🔥 Combo Deals">
+                <option value="business-builder">Business Builder Combo</option>
+                <option value="pro-growth">Pro-Growth Combo</option>
+              </optgroup>
+              <option value="custom">Not Sure Yet – Let's Talk</option>
             </select>
           </div>
           <div class="form-group">
