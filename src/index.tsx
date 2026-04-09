@@ -129,9 +129,9 @@ ${navHTML('home')}
 <section class="hero" id="home">
   <div class="hero-bg"></div>
   <div class="hero-content">
-    <div class="hero-badge">🇦🇼 Serving Small Businesses in Aruba</div>
-    <h1>Your Business<br /><span class="hero-highlight">Solution Partner</span></h1>
-    <p class="hero-sub">Marketing, administrative support, and branding — all in one place. We help small businesses in Aruba grow with confidence.</p>
+    <div class="hero-badge">🇦🇼 Palm Beach, Noord · Aruba</div>
+    <h1>Professional Assistance<br /><span class="hero-highlight">That Delivers</span></h1>
+    <p class="hero-sub">AI-powered digital marketing and admin support for small businesses in Aruba. We handle the backend so you can focus on growth.</p>
     <div class="hero-actions">
       <a href="#packages" class="btn-primary">View Packages</a>
       <a href="#contact" class="btn-outline">Book a Free Call</a>
@@ -540,48 +540,81 @@ ${navHTML('home')}
 <!-- ABOUT -->
 <section class="about-section" id="about">
   <div class="container">
-    <div class="about-grid">
-      <div class="about-content">
-        <div class="section-label">About Us</div>
-        <h2>Built for Aruba's Small Business Community</h2>
-        <p>E-Assist Pro Digital was founded with one mission: to make professional marketing and admin support accessible for every small business in Aruba. We understand the challenges of running a business on the island — limited time, tight budgets, and the need to stand out.</p>
-        <p>We combine local knowledge with digital expertise to deliver results that are actually meaningful for your business. Whether you're a startup or an established business looking to grow your online presence, we have a package that fits.</p>
-        <div class="about-values">
-          <div class="value-item">
-            <span class="value-icon">🤝</span>
-            <div>
-              <h4>Personal Service</h4>
-              <p>We treat every client like a partner, not just a contract.</p>
-            </div>
-          </div>
-          <div class="value-item">
-            <span class="value-icon">🎯</span>
-            <div>
-              <h4>Results Focused</h4>
-              <p>Every strategy is designed to move the needle for your business.</p>
-            </div>
-          </div>
-          <div class="value-item">
-            <span class="value-icon">🌴</span>
-            <div>
-              <h4>Aruba Local</h4>
-              <p>Deep understanding of the local market and business culture.</p>
-            </div>
+    <div class="section-label" style="text-align:center">About Us</div>
+    <h2 class="section-title" style="text-align:center">The Team Behind E-Assist Pro Digital</h2>
+    <p class="section-sub" style="margin-bottom:64px">We are a women-owned, Aruba-based digital agency. Built on years of hands-on experience in marketing, admin, and business operations. We combine local knowledge with modern tools to get results.</p>
+
+    <!-- TEAM PHOTO STRIP -->
+    <div class="photo-strip">
+      <div class="photo-strip-main">
+        <img src="/static/team-main.jpg" alt="Eliseth and Pamela - E-Assist Pro Digital team" />
+        <div class="photo-strip-overlay">
+          <span class="overlay-tag">Eliseth &amp; Pamela</span>
+          <span class="overlay-sub">Co-founders · Aruba</span>
+        </div>
+      </div>
+      <div class="photo-strip-grid">
+        <div class="photo-thumb">
+          <img src="/static/team-working-1.jpg" alt="Team at work" />
+        </div>
+        <div class="photo-thumb">
+          <img src="/static/team-working-4.jpg" alt="Strategy session" />
+        </div>
+        <div class="photo-thumb">
+          <img src="/static/team-shirts.jpg" alt="Professional Assistance That Delivers" />
+        </div>
+        <div class="photo-thumb">
+          <img src="/static/team-client.jpg" alt="With a client" />
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM BIOS -->
+    <div class="team-bios">
+      <div class="bio-card">
+        <div class="bio-photo-wrap">
+          <img src="/static/eliseth-portrait.jpg" alt="Eliseth Everon" class="bio-photo" />
+        </div>
+        <div class="bio-content">
+          <div class="bio-role">Managing Director · 60% Owner</div>
+          <h3 class="bio-name">Eliseth Everon</h3>
+          <p class="bio-text">Eliseth brings a decade of experience in banking, insurance, marketing, and entrepreneurship. She founded and managed multiple companies in Aruba, including Bello Electrical Services, HiDreams Aviation Academy, and Power B Electrical Services.</p>
+          <p class="bio-text">During and after COVID-19, she led social media campaigns for several Aruban businesses and produced video ads for LED billboards island-wide. She drives strategy, finance, client sales, and community partnerships at E-Assist Pro Digital.</p>
+          <div class="bio-tags">
+            <span>Strategy</span>
+            <span>Finance</span>
+            <span>Sales</span>
+            <span>Marketing</span>
+            <span>Operations</span>
           </div>
         </div>
       </div>
-      <div class="about-visual">
-        <div class="about-logo-box">
-          <img src="/static/logo-dark.png" alt="E-Assist Pro Digital" class="about-logo" />
+
+      <div class="bio-card">
+        <div class="bio-photo-wrap">
+          <img src="/static/team-outdoor.jpg" alt="Pamela de Mey" class="bio-photo bio-photo-pamela" />
         </div>
-        <div class="about-tags">
-          <span class="tag">Social Media</span>
-          <span class="tag">Admin Support</span>
-          <span class="tag">Branding</span>
-          <span class="tag">Aruba</span>
-          <span class="tag">Small Business</span>
-          <span class="tag">Digital Marketing</span>
+        <div class="bio-content">
+          <div class="bio-role">Operations &amp; Marketing Coordinator · 40% Owner</div>
+          <h3 class="bio-name">Pamela de Mey</h3>
+          <p class="bio-text">Pamela has a background as a supervisor at Do it Center Aruba and as an administrative assistant for Bello Electrical Services. She graduated from EPI unit Welzijn as a social worker in July 2025.</p>
+          <p class="bio-text">Passionate about social media and administration, Pamela manages content creation, social media strategy, and all client-facing admin tasks. She keeps branding consistent and engagement growing across every platform.</p>
+          <div class="bio-tags">
+            <span>Content Creation</span>
+            <span>Social Media</span>
+            <span>Admin</span>
+            <span>Client Delivery</span>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <!-- MISSION BLOCK -->
+    <div class="mission-block">
+      <div class="mission-icon">🎯</div>
+      <div>
+        <h3>Our Mission</h3>
+        <p>To empower business owners with reliable, intelligent, and results-driven digital support through AI-enhanced services — so you spend less time on paperwork and more time growing your business.</p>
       </div>
     </div>
   </div>
