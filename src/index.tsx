@@ -839,7 +839,7 @@ function switchTabByHash() {
 window.addEventListener('hashchange', switchTabByHash);
 switchTabByHash();
 
-// Contact form
+// Contact form — Web3Forms
 const form = document.getElementById('contactForm');
 const statusEl = document.getElementById('formStatus');
 const submitBtn = document.getElementById('submitBtn');
@@ -849,32 +849,34 @@ form.addEventListener('submit', async (e) => {
   submitBtn.textContent = 'Sending...';
   submitBtn.disabled = true;
 
-  const data = {
-    firstName: form.firstName.value,
-    lastName: form.lastName.value,
+  const formData = {
+    access_key: '63666660-b705-43fd-b0d7-e14b4f1cdac0',
+    subject: 'New Contact Form Submission – E-Assist Pro Digital',
+    from_name: form.firstName.value + ' ' + form.lastName.value,
     email: form.email.value,
-    phone: form.phone.value,
-    service: form.service.value,
-    message: form.message.value
+    phone: form.phone.value || 'Not provided',
+    service: form.service.value || 'Not specified',
+    message: form.message.value || 'No message provided',
+    botcheck: ''
   };
 
   try {
-    const res = await fetch('/api/contact', {
+    const res = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(formData)
     });
     const result = await res.json();
     if (result.success) {
       statusEl.className = 'form-status success';
-      statusEl.textContent = '✅ ' + result.message;
+      statusEl.textContent = '✅ Thank you! We will contact you within 24 hours.';
       form.reset();
     } else {
-      throw new Error('Failed');
+      throw new Error(result.message || 'Failed');
     }
-  } catch {
+  } catch (err) {
     statusEl.className = 'form-status error';
-    statusEl.textContent = '❌ Something went wrong. Please try again or contact us directly.';
+    statusEl.textContent = '❌ Something went wrong. Please email us at info@e-assistpro.digital or WhatsApp us directly.';
   } finally {
     submitBtn.textContent = 'Send Message';
     submitBtn.disabled = false;
