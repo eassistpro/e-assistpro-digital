@@ -59,7 +59,7 @@ function footerHTML() {
       <div class="footer-grid">
         <div class="footer-brand">
           <img src="/static/logo-white.png" alt="E-Assist Pro Digital" class="footer-logo" />
-          <p>Your business solution partner in Aruba. Marketing & administrative support tailored for small businesses.</p>
+          <p>Your business solution partner — based in Aruba, serving clients remotely worldwide. Marketing & administrative support tailored for small businesses.</p>
           <div class="social-links">
             <a href="https://www.facebook.com/Eassistpro/" target="_blank" aria-label="Facebook">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -95,7 +95,7 @@ function footerHTML() {
         <div class="footer-links">
           <h4>Contact</h4>
           <ul>
-            <li>📍 Aruba</li>
+            <li>📍 Based in Aruba · Remote Worldwide</li>
             <li><a href="mailto:info@e-assistpro.digital">info@e-assistpro.digital</a></li>
             <li><a href="https://www.e-assistpro.digital">e-assistpro.digital</a></li>
           </ul>
@@ -116,7 +116,7 @@ function homepage(): string {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E-Assist Pro Digital – Your Business Solution Partner in Aruba</title>
-  <meta name="description" content="E-Assist Pro Digital offers social media management, Meta & Google Ads, admin support, branding, and website creation for small businesses in Aruba. Packages from AWG 600." />
+  <meta name="description" content="E-Assist Pro Digital offers social media management, Meta & Google Ads, admin support, branding, and website creation. Based in Aruba, serving clients locally and remotely worldwide. Packages from AWG 600." />
   <link rel="icon" href="/static/favicon.png" type="image/png" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/static/style.css" />
@@ -131,7 +131,7 @@ ${navHTML('home')}
   <div class="hero-content">
     <div class="hero-badge">🇦🇼 Serving Aruba & Beyond</div>
     <h1>Professional Assistance<br /><span class="hero-highlight">That Delivers</span></h1>
-    <p class="hero-sub">AI-powered digital marketing and admin support for small businesses in Aruba. We handle the backend so you can focus on growth.</p>
+    <p class="hero-sub">AI-powered digital marketing and admin support for small businesses — based in Aruba, available remotely worldwide. We handle the backend so you can focus on growth.</p>
     <div class="hero-actions">
       <a href="#packages" class="btn-primary">View Packages</a>
       <a href="#contact" class="btn-outline">Book a Free Call</a>
@@ -529,7 +529,7 @@ ${navHTML('home')}
   <div class="container">
     <div class="section-label" style="text-align:center">About Us</div>
     <h2 class="section-title" style="text-align:center">The Team Behind E-Assist Pro Digital</h2>
-    <p class="section-sub" style="margin-bottom:48px;text-align:center">A women-owned, Aruba-based digital agency combining local knowledge with modern tools to help small businesses grow with confidence.</p>
+    <p class="section-sub" style="margin-bottom:48px;text-align:center">A women-owned digital agency based in Aruba, combining local expertise with modern tools to help small businesses grow — on the island and beyond.</p>
 
     <!-- TEAM PHOTO – JOINT ONLY -->
     <div class="about-team-center">
@@ -540,7 +540,7 @@ ${navHTML('home')}
         </div>
       </div>
       <div class="about-team-text">
-        <p>E-Assist Pro Digital was founded in 2024 by Eliseth — driven by a clear vision: give small businesses in Aruba access to reliable digital marketing and administrative support, all in one place.</p>
+        <p>E-Assist Pro Digital was founded in 2024 by Eliseth — driven by a clear vision: give small businesses access to reliable digital marketing and administrative support, all in one place. Based in Aruba, we work with clients both locally and remotely.</p>
         <p>In 2025, Eliseth partnered with Pamela to expand the company's capacity and take on more clients. Together, they bring complementary strengths in marketing, operations, and client delivery — allowing the business to grow with a strong team behind it.</p>
         <p>Our goal is simple: handle the backend so you can focus on what you do best. From social media and ads to admin filing and branding — we are your all-in-one business partner.</p>
         <div class="about-tags">
@@ -682,7 +682,7 @@ ${navHTML('home')}
       <div class="contact-info">
         <div class="section-label">Get In Touch</div>
         <h2>Ready to Grow Your Business?</h2>
-        <p>Let's talk about what your business needs. Book a free consultation and we'll find the right package for you.</p>
+        <p>Let's talk about what your business needs. Book a free consultation and we'll find the right package for you — whether you're in Aruba or anywhere in the world.</p>
         <div class="contact-details">
           <div class="contact-item">
             <span class="contact-icon">📍</span>
