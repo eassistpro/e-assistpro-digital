@@ -59,7 +59,7 @@ function footerHTML() {
       <div class="footer-grid">
         <div class="footer-brand">
           <img src="/static/logo-white.png" alt="E-Assist Pro Digital" class="footer-logo" />
-          <p>Your business solution partner — based in Aruba, serving clients remotely worldwide. Marketing & administrative support tailored for small businesses.</p>
+          <p>Your business solution partner. Based in Aruba, serving clients remotely worldwide. Marketing and administrative support tailored for small businesses.</p>
           <div class="social-links">
             <a href="https://www.facebook.com/Eassistpro/" target="_blank" aria-label="Facebook">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -117,7 +117,7 @@ function homepage(): string {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>E-Assist Pro Digital – Your Business Solution Partner in Aruba</title>
   <meta name="description" content="E-Assist Pro Digital offers social media management, Meta & Google Ads, admin support, branding, and website creation. Based in Aruba, serving clients locally and remotely worldwide. Packages from AWG 600." />
-  <link rel="icon" href="/static/favicon.png" type="image/png" />
+  <link rel="icon" href="/static/logo-dark.png" type="image/png" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/static/style.css" />
   <!-- Google Analytics -->
@@ -139,7 +139,7 @@ ${navHTML('home')}
   <div class="hero-content">
     <div class="hero-badge">🇦🇼 Serving Aruba & Beyond</div>
     <h1>Professional Assistance<br /><span class="hero-highlight">That Delivers</span></h1>
-    <p class="hero-sub">AI-powered digital marketing and admin support for small businesses — based in Aruba, available remotely worldwide. We handle the backend so you can focus on growth.</p>
+    <p class="hero-sub">Smart digital marketing and admin support for small businesses. Based in Aruba, available remotely worldwide. We handle the backend so you can focus on growing your business.</p>
     <div class="hero-actions">
       <a href="#packages" class="btn-primary">View Packages</a>
       <a href="#contact" class="btn-outline">Book a Free Call</a>
@@ -172,14 +172,14 @@ ${navHTML('home')}
   <div class="container">
     <div class="section-label">What We Offer</div>
     <h2 class="section-title">Everything Your Business Needs</h2>
-    <p class="section-sub">From social media to admin support — we handle the backend so you can focus on what you do best.</p>
+    <p class="section-sub">From social media to admin support, we handle the backend so you can focus on what you do best.</p>
     <div class="services-grid">
       <div class="service-card" data-aos="fade-up">
         <div class="service-icon social-icon">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
         </div>
         <h3>Social Media Management</h3>
-        <p>Branded posts, stories, reels, and performance analytics — tailored to grow your audience on Facebook & Instagram.</p>
+        <p>Branded posts, stories, reels, and performance analytics tailored to grow your audience on Facebook and Instagram.</p>
         <ul class="service-features">
           <li>✓ Content creation & scheduling</li>
           <li>✓ Stories & Reels production</li>
@@ -193,7 +193,7 @@ ${navHTML('home')}
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
         </div>
         <h3>Meta & Google Ads</h3>
-        <p>Targeted paid advertising on Facebook, Instagram, and Google — get in front of the right people at the right moment with measurable results.</p>
+        <p>Targeted paid advertising on Facebook, Instagram, and Google. Get in front of the right people at the right moment with measurable results.</p>
         <ul class="service-features">
           <li>✓ Meta (Facebook & Instagram) Ads</li>
           <li>✓ Google Ads campaigns</li>
@@ -209,7 +209,7 @@ ${navHTML('home')}
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
         </div>
         <h3>Admin Support</h3>
-        <p>Expense booking, calendar management, digital filing, email setup, and document templates — your virtual back office.</p>
+        <p>Expense booking, calendar management, digital filing, email setup, and document templates. Think of us as your virtual back office.</p>
         <ul class="service-features">
           <li>✓ Expense & receipt booking</li>
           <li>✓ Calendar & scheduling</li>
@@ -224,7 +224,7 @@ ${navHTML('home')}
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         </div>
         <h3>Branding & Design</h3>
-        <p>Logo design, brand identity, color palettes, fonts, business cards, letterheads — everything to make your brand unforgettable.</p>
+        <p>Logo design, brand identity, color palettes, fonts, business cards, and letterheads. Everything you need to make your brand unforgettable.</p>
         <ul class="service-features">
           <li>✓ Logo design concepts</li>
           <li>✓ Full color palette</li>
@@ -258,7 +258,7 @@ ${navHTML('home')}
   <div class="container">
     <div class="section-label">Our Packages</div>
     <h2 class="section-title">Find the Right Fit for Your Business</h2>
-    <p class="section-sub">Packages start from <strong>AWG 600,-</strong>. All priced in Aruban Florin — no hidden fees, no long-term lock-ins. Contact us to find the right fit for your budget.</p>
+    <p class="section-sub">Packages start from <strong>AWG 600,-</strong>. All priced in Aruban Florin with no hidden fees and no long-term lock-ins. Contact us to find the right fit for your budget.</p>
 
     <!-- TAB NAV -->
     <div class="tab-nav">
@@ -537,7 +537,7 @@ ${navHTML('home')}
   <div class="container">
     <div class="section-label" style="text-align:center">About Us</div>
     <h2 class="section-title" style="text-align:center">The Team Behind E-Assist Pro Digital</h2>
-    <p class="section-sub" style="margin-bottom:48px;text-align:center">A women-owned digital agency based in Aruba, combining local expertise with modern tools to help small businesses grow — on the island and beyond.</p>
+    <p class="section-sub" style="margin-bottom:48px;text-align:center">A women-owned digital agency based in Aruba, combining local expertise with modern tools to help small businesses grow. On the island and beyond.</p>
 
     <!-- TEAM PHOTO – JOINT ONLY -->
     <div class="about-team-center">
@@ -548,9 +548,9 @@ ${navHTML('home')}
         </div>
       </div>
       <div class="about-team-text">
-        <p>E-Assist Pro Digital was founded in 2024 by Eliseth — driven by a clear vision: give small businesses access to reliable digital marketing and administrative support, all in one place. Based in Aruba, we work with clients both locally and remotely.</p>
-        <p>In 2025, Eliseth partnered with Pamela to expand the company's capacity and take on more clients. Together, they bring complementary strengths in marketing, operations, and client delivery — allowing the business to grow with a strong team behind it.</p>
-        <p>Our goal is simple: handle the backend so you can focus on what you do best. From social media and ads to admin filing and branding — we are your all-in-one business partner.</p>
+        <p>E-Assist Pro Digital was founded in 2024 by Eliseth, driven by a clear vision: give small businesses access to reliable digital marketing and administrative support, all in one place. Based in Aruba, we work with clients both locally and remotely.</p>
+        <p>In 2025, Eliseth partnered with Pamela to expand the company and take on more clients. Together, they bring complementary strengths in marketing, operations, and client delivery, allowing the business to grow with a strong team behind it.</p>
+        <p>Our goal is simple: handle the backend so you can focus on what you do best. From social media and ads to admin filing and branding, we are your all-in-one business partner.</p>
         <div class="about-tags">
           <span>🇦🇼 Aruba-Based</span>
           <span>👩‍💼 Women-Owned</span>
@@ -565,7 +565,7 @@ ${navHTML('home')}
       <div class="mission-icon">🎯</div>
       <div>
         <h3>Our Mission</h3>
-        <p>To empower business owners with reliable, intelligent, and results-driven digital support through AI-enhanced services — so you spend less time on paperwork and more time growing your business.</p>
+        <p>To empower business owners with reliable, personal, and results-driven digital support so you spend less time on paperwork and more time growing your business.</p>
       </div>
     </div>
   </div>
@@ -657,7 +657,7 @@ ${navHTML('home')}
       <div class="why-card">
         <div class="why-icon">⚡</div>
         <h3>All-in-One Support</h3>
-        <p>From Instagram to invoice filing — we handle it all so you don't need to manage multiple vendors.</p>
+        <p>From Instagram to invoice filing, we handle it all so you don't need to juggle multiple vendors.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">💰</div>
@@ -677,7 +677,7 @@ ${navHTML('home')}
       <div class="why-card">
         <div class="why-icon">🎨</div>
         <h3>Brand Consistency</h3>
-        <p>We use your brand colors, fonts, and voice across every piece of content — creating a cohesive, professional image.</p>
+        <p>We use your brand colors, fonts, and voice across every piece of content to create a consistent and professional image.</p>
       </div>
     </div>
   </div>
@@ -690,7 +690,7 @@ ${navHTML('home')}
       <div class="contact-info">
         <div class="section-label">Get In Touch</div>
         <h2>Ready to Grow Your Business?</h2>
-        <p>Let's talk about what your business needs. Book a free consultation and we'll find the right package for you — whether you're in Aruba or anywhere in the world.</p>
+        <p>Let's talk about what your business needs. Book a free consultation and we will find the right package for you, whether you are in Aruba or anywhere in the world.</p>
         <div class="contact-details">
           <div class="contact-item">
             <span class="contact-icon">📍</span>
