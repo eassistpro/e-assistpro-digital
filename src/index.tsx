@@ -129,7 +129,7 @@ ${navHTML('home')}
 <section class="hero" id="home">
   <div class="hero-bg"></div>
   <div class="hero-content">
-    <div class="hero-badge">🇦🇼 Palm Beach, Noord · Aruba</div>
+    <div class="hero-badge">🇦🇼 Serving Aruba & Beyond</div>
     <h1>Professional Assistance<br /><span class="hero-highlight">That Delivers</span></h1>
     <p class="hero-sub">AI-powered digital marketing and admin support for small businesses in Aruba. We handle the backend so you can focus on growth.</p>
     <div class="hero-actions">
