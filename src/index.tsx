@@ -21,6 +21,31 @@ app.get('/contact', (c) => {
   return c.html(contactPage())
 })
 
+// SEO: robots.txt
+app.get('/robots.txt', (c) => {
+  return c.text(`User-agent: *\nAllow: /\n\nSitemap: https://www.e-assistpro.digital/sitemap.xml\n`, 200, {
+    'Content-Type': 'text/plain',
+    'Cache-Control': 'public, max-age=86400'
+  })
+})
+
+// SEO: sitemap.xml
+app.get('/sitemap.xml', (c) => {
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.e-assistpro.digital/</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.e-assistpro.digital/#services</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.e-assistpro.digital/#packages</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.e-assistpro.digital/#about</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.e-assistpro.digital/#reviews</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.e-assistpro.digital/#contact</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+</urlset>`
+  return c.text(sitemap, 200, {
+    'Content-Type': 'application/xml',
+    'Cache-Control': 'public, max-age=86400'
+  })
+})
+
 // API: Contact form submission
 app.post('/api/contact', async (c) => {
   const body = await c.req.json()
@@ -115,9 +140,113 @@ function homepage(): string {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>E-Assist Pro Digital – Your Business Solution Partner in Aruba</title>
-  <meta name="description" content="E-Assist Pro Digital offers social media management, Meta & Google Ads, admin support, branding, and website creation. Based in Aruba, serving clients locally and remotely worldwide. Packages from AWG 600." />
+  <title>E-Assist Pro Digital | Social Media, Ads & Admin Support in Aruba</title>
+  <meta name="description" content="Women-owned digital agency in Aruba. We handle social media management, Meta & Google Ads, admin support, branding and website creation for small businesses. Packages from AWG 600. Serving Aruba and clients worldwide." />
+  <meta name="keywords" content="social media management Aruba, Meta Ads Aruba, Google Ads Aruba, admin support Aruba, branding Aruba, digital marketing Aruba, small business Aruba, website creation Aruba, e-assist pro digital" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="E-Assist Pro Digital" />
+  <link rel="canonical" href="https://www.e-assistpro.digital/" />
+
+  <!-- Open Graph (Facebook, Instagram, WhatsApp previews) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.e-assistpro.digital/" />
+  <meta property="og:title" content="E-Assist Pro Digital | Social Media, Ads & Admin Support in Aruba" />
+  <meta property="og:description" content="Women-owned digital agency in Aruba. Social media management, Meta & Google Ads, admin support, branding and website creation. Packages from AWG 600." />
+  <meta property="og:image" content="https://www.e-assistpro.digital/static/team-together.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="E-Assist Pro Digital" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="E-Assist Pro Digital | Social Media, Ads & Admin Support in Aruba" />
+  <meta name="twitter:description" content="Women-owned digital agency in Aruba. Social media, ads, admin support & branding for small businesses. Packages from AWG 600." />
+  <meta name="twitter:image" content="https://www.e-assistpro.digital/static/team-together.jpg" />
+
+  <!-- Favicon -->
   <link rel="icon" href="/static/logo-dark.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/static/logo-dark.png" />
+
+  <!-- JSON-LD: Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "E-Assist Pro Digital",
+    "description": "Women-owned digital agency in Aruba offering social media management, Meta and Google Ads, admin support, branding, and website creation for small businesses.",
+    "url": "https://www.e-assistpro.digital",
+    "logo": "https://www.e-assistpro.digital/static/logo-dark.png",
+    "image": "https://www.e-assistpro.digital/static/team-together.jpg",
+    "telephone": "+2975672847",
+    "email": "info@e-assistpro.digital",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AW",
+      "addressLocality": "Aruba"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "12.5211",
+      "longitude": "-70.0000"
+    },
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "priceRange": "AWG 600+",
+    "currenciesAccepted": "AWG",
+    "paymentAccepted": "Bank Transfer",
+    "areaServed": [
+      { "@type": "Country", "name": "Aruba" },
+      { "@type": "AdministrativeArea", "name": "Caribbean" }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/Eassistpro/",
+      "https://www.instagram.com/eassistpro.digital",
+      "https://maps.app.goo.gl/m21PY1WDwQMMMmfR7"
+    ],
+    "founder": [
+      { "@type": "Person", "name": "Eliseth", "jobTitle": "Co-founder" },
+      { "@type": "Person", "name": "Pamela", "jobTitle": "Co-founder" }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Digital Marketing & Admin Support Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Social Media Management" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Meta & Google Ads" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Admin Support" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Branding & Design" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Creation" } }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "3",
+      "bestRating": "5"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Odmar Kelly" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+        "reviewBody": "Highly professional and results-driven! This marketing assistance business helped us increase our brand visibility and engagement."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Aldwin Kock" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+        "reviewBody": "Really impressed with the level of professionalism and creativity this team brought to our project."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Jorge Perez" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+        "reviewBody": "During the months I've been working with them, they've been very responsible and professional, and I've had very good results."
+      }
+    ]
+  }
+  </script>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/static/style.css" />
   <!-- Google Analytics -->
@@ -542,7 +671,7 @@ ${navHTML('home')}
     <!-- TEAM PHOTO – JOINT ONLY -->
     <div class="about-team-center">
       <div class="about-team-photo">
-        <img src="/static/team-together.jpg" alt="The E-Assist Pro Digital team" />
+        <img src="/static/team-together.jpg" alt="Eliseth and Pamela, co-founders of E-Assist Pro Digital, a women-owned digital agency in Aruba" />
         <div class="about-team-caption">
           <span>Co-founders · E-Assist Pro Digital · Aruba</span>
         </div>
